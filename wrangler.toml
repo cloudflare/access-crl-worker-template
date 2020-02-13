@@ -1,0 +1,10 @@
+name = "access-crl-worker"
+type = "webpack"
+
+workers_dev = false
+route = ""
+account_id = ""
+zone_id = ""
+kv-namespaces = [
+         { binding = "CRL_NAMESPACE", id = "" }
+]
