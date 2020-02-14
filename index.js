@@ -8,7 +8,8 @@ import * as asn1js from 'asn1js'
 import { CertificateRevocationList } from 'pkijs'
 
 // The URL where your CRL is located. We will fetch it from here.
-const CRL_URL = '<REPLACE_ME>'
+// Uncomment this line if you can't use wrangler >= 1.8.0
+// const CRL_URL = '<REPLACE_ME>'
 
 // The key we store your crl under in your namespace
 const CRL_KV_KEY = `CRL_${btoa(CRL_URL)}`

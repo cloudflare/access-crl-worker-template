@@ -8,6 +8,8 @@ There are a few setup steps needed to use this worker
 
 1. Replace the CRL_URL variable in `index.js` with the location of your CRL.
 1. Create a Cloudflare Workers KV namespace and set it in your `wrangler.toml` file.
+1. Set the CRL url in your `wrangler.toml` file. 
+    1. **You will need Wrangler version 1.8.0 or higher.** If you cannot upgrade for some reason, you will need to create a variable in `index.js` for this.
 
 ## Deployment
 Make sure you have set the needed configuration and then run the following.
