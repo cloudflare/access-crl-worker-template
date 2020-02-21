@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "access-crl-worker",
+  "name": "access-crl-worker-template",
   "version": "1.0.0",
   "description": "A self contained worker that can be used for doing basic CRL checks. It assumes that the request has gone through Access MTLS.",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "author": "James Royal <jroyal@cloudflare.com>",
-  "license": "MIT",
+  "license": "MIT OR Apache-2.0",
   "devDependencies": {
     "prettier": "^1.18.2"
   },
